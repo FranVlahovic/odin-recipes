@@ -35,6 +35,6 @@ Open `index.html` in your web browser to view the main page with links to variou
 Contributions are welcome. Please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the [MIT License](MIT-LICENSE.txt). 
+This project is licensed under the [MIT License](LICENSE.txt). 
 
 For more details, visit the [repository on GitHub](https://github.com/FranVlahovic/odin-recipes).
