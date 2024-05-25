@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #141414;
 }
@@ -16,43 +21,98 @@ h1 {
     color: #FAF9F6;
 }
 
-h1.hrecipe {
+.hrecipe {
     text-align: left;
     font-size: 50px;
     color: #deb887;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+    padding-top: 30px;
 }
 
 h2 {
     color: #deb887;
     font-weight: 700;
-    text-align: center;
 }
 
-h2.h2recipe {
+.h2recipe {
     color: #deb887;
     font-weight: 700;
     font-style: italic;
-    text-align: left;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 p {
     color: white;
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .arecipe {
     list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
     
 }
 a:link, a:active, a:visited, a:hover {
-    text-align: center;
     color: white;
     display: block;
+    width: 130px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
 }
 
 ol {
     color:white;
 }
 
+
 li {
     color:white;
+}
+
+li::marker {
+    color: #deb887;
+}
+.secondh {
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px 5px 0 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.halfcolor {
+    color:#deb887;
+}
+.firsth {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.secondl {
+    width: 600px;
+    padding: 5px;
+    margin-left: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.firstl {
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+.secondl li {
+    margin: 15px;
 }
